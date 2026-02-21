@@ -1,4 +1,4 @@
-function ProfileCard(name, email) {
+function ProfileCard({name="Jane Doe", email="jane.doe@example.com"}) {
     return(
     <>
         <div className="profile-card">
